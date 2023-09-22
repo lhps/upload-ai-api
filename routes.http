@@ -13,3 +13,13 @@ Content-Type: audio/mpeg
 
 < ./example.mp3
 --------boundary
+
+###
+
+# @name create-transcription
+POST http://localhost:3333/videos/dqwdqwdqw/transcription
+Content-Type: application/json;
+
+{
+  "prompt": "clean architecture, ddd, palavra-chave"
+}
